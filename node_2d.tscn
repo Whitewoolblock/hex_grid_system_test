@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://bfpae87orb2wu"]
+
+[node name="六边形网格" type="Node2D" unique_id=1085240360]
+
+[node name="六边形单元" type="Node2D" parent="." unique_id=1264997905]
+
+[node name="Polygon2D" type="Polygon2D" parent="六边形单元" unique_id=1680108363]
+position = Vector2(0, -2)
+polygon = PackedVector2Array(0, -32.000004, -32, -16.000002, -32, 24, 0, 40, 32.000004, 24, 32.000004, -16.000002)
+uv = PackedVector2Array(-15.999985, -32, -48, -8, -32, 16, 24.000015, 24, 40, -8, 32, -40)
